@@ -6,7 +6,7 @@ def index():
      return render_template('index.html')
 @app.route("/welcome")
 def welcome():
-     return "welcome To Flask"
+     return "welcome To Flaskapplication"
 @app.route("/welcome")
 def login():
      return render_template('login.html')
